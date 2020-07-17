@@ -61,7 +61,7 @@ function getSoonNotification() {
     notificationCollection.push(
       buildNotification(
         'mouvement',
-        document.querySelector('#movements .timer'),
+        document.querySelector('#movements .mov span'),
         document.querySelector('#movements .timer'),
       )
     )
